@@ -21,6 +21,12 @@ h1 {
   font-weight: 400;
 }
 
+img.ownLine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img.centerImage {
   padding: 0 50px 0 50px;
   margin-left: auto;
@@ -40,6 +46,11 @@ body {
 
 .wrapper {
   text-align: center;
+  font-family: Avenir, sans-serif;
+}
+
+ol {
+  list-style-type: none;
 }
 
 ul#frontPage {
@@ -47,6 +58,11 @@ ul#frontPage {
   /*padding: 0;*/
   display: inline-block;
   list-style-type: none;
+}
+
+li.centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
@@ -58,7 +74,7 @@ li {
   font-family: Avenir, sans-serif;
 }
 
-p.centerText {
+p.center {
   text-align: center;
   font-family: Avenir, sans-serif;
 }
